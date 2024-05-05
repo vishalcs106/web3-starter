@@ -53,10 +53,10 @@ export default function Home() {
     <main className="h-fit ">
       <section className="flex flex-col text-center gap-8 w-full h-[800px] justify-center items-center md:items-start  mt-30 md:mt-0">
         <div className=" bg-indigo-950/90 rounded-lg w-[500px] 2xl:w-[700px] m-8 p-8 gap-6 flex flex-col">
-          <p className="text-5xl  font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-600">
+          <p className="text-3xl xl:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-600">
             Fantasy Cricket On-Chain
           </p>
-          <p className="text-lg 2xl:text-xl  font-semibold ">
+          <p className="text-md xl:text-xl  font-semibold ">
             Tournament: ICC Mens T20 World Cup 2024
           </p>
           <div className="flex flex-col gap-6 mt-6 justify-start items-start">

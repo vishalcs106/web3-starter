@@ -6,7 +6,7 @@ import ConnectButton from "./ConnectButton";
 export default function Nav() {
   return (
     <header>
-      <nav className="bg-gray-500/25 px-8 py-8 rounded-md h-full w-full flex flex-col md:flex-row justify-center items-center md:justify-between">
+      <nav className="bg-gray-500/25 px-8 py-4 xl:py-8 rounded-md h-full w-full flex flex-col md:flex-row justify-center items-center md:justify-between">
         <a
           className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
           href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"

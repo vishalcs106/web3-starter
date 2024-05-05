@@ -24,7 +24,7 @@ export default function Footer() {
       <div className="gap-5 flex">
         {socials.map((social, index) => {
           const Icon = social.Icon;
-          const iconSizeClass = index === 0 ? "w-6 h-6" : "w-5 h-5";
+          const iconSizeClass = index === 0 ? "w-4 h-4" : "w-3 h-3";
           return (
             <div className="rounded-full bg-gray-500/40 p-3" key={index}>
               <Link
@@ -44,7 +44,7 @@ export default function Footer() {
       <Image
         src={PoweredByAvalanche}
         alt="PoweredByAvalanche"
-        width={160}
+        width={140}
         className="mt-[-30px] mb-[-30px]"
         layout={"intrensic"}
       />
