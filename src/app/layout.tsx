@@ -60,7 +60,7 @@ export default function RootLayout({
             </ThemeProvider>
           </div>
         </div>
-        <div className="fixed bottom-0 left-0 right-0">
+        <div className="">
           <Footer />
         </div>
         <Toaster richColors />
