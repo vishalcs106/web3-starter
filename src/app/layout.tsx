@@ -44,9 +44,9 @@ export default function RootLayout({
       >
         <div
           id="root"
-          className="bg-[url('./assets/HeroBg.jpg')] md:bg-no-repeat bg-cover bg-center  h-screen md:mb-0"
+          className="bg-[url('./assets/HeroBg.jpg')] md:bg-no-repeat bg-cover bg-center  h-full sm:h-screen md:mb-0 "
         >
-          <div className="backdrop-blur h-full w-full">
+          <div className="backdrop-blur h-full w-full pb-8">
             <ThemeProvider
               attribute="class"
               defaultTheme="dark"
