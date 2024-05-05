@@ -51,7 +51,7 @@ export default function Home() {
 
   return (
     <main className="h-fit ">
-      <section className="flex flex-col text-center gap-8 w-full h-[800px] justify-center items-center md:items-start  mt-30 md:mt-20">
+      <section className="flex flex-col text-center gap-8 w-full h-[800px] justify-center items-center md:items-start  mt-30 md:mt-0">
         <div className=" bg-indigo-950/90 rounded-lg w-[500px] 2xl:w-[700px] m-8 p-8 gap-6 flex flex-col">
           <p className="text-5xl  font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-600">
             Fantasy Cricket On-Chain
