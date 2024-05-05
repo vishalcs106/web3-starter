@@ -41,7 +41,7 @@ export default function Footer() {
         })}
       </div>
 
-      <Image src={PoweredByAvalanche} alt="PoweredByAvalanche" width={140} />
+      <Image src={PoweredByAvalanche} alt="PoweredByAvalanche" height={50} />
     </div>
   );
 }
