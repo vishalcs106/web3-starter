@@ -44,7 +44,7 @@ export default function RootLayout({
       >
         <div
           id="root"
-          className="bg-[url('./assets/HeroBg.jpg')] md:bg-no-repeat bg-cover bg-center  h-[1400px] md:h-[1200] md:mb-0"
+          className="bg-[url('./assets/HeroBg.jpg')] md:bg-no-repeat bg-cover bg-center  h-screen md:mb-0"
         >
           <div className="backdrop-blur h-full w-full">
             <ThemeProvider
@@ -60,6 +60,7 @@ export default function RootLayout({
             </ThemeProvider>
           </div>
         </div>
+        <div className="flex flex-grow"></div>
         <div className="">
           <Footer />
         </div>
