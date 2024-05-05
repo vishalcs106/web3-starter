@@ -51,7 +51,7 @@ export default function Home() {
 
   return (
     <main className="h-fit ">
-      <section className="flex flex-col text-center gap-8 w-full h-[800px] justify-center items-center xl:items-start px-8 py-8 my-10">
+      <section className="flex flex-col text-center gap-8 w-full h-full justify-center items-center xl:items-start px-8 py-8 ">
         <div className=" bg-indigo-950/90 rounded-lg w-full max-w-[500px]  p-8 gap-6 flex flex-col ">
           <p className="text-3xl 3xl:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-600">
             Fantasy Cricket On-Chain
@@ -79,10 +79,6 @@ export default function Home() {
               🛒 Trade player cards on marketplace.
             </p>
           </div>
-          <button className="self-center bg-emerald-500 px-6 py-2 rounded-lg mt-6">
-            {" "}
-            Minting Soon
-          </button>
         </div>
       </section>
     </main>
