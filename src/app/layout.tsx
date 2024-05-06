@@ -44,9 +44,9 @@ export default function RootLayout({
       >
         <div
           id="root"
-          className="bg-[url('./assets/HeroBg.jpg')] md:bg-no-repeat bg-cover bg-center  h-full sm:h-screen  "
+          className="bg-[url('./assets/HeroBg.jpg')] md:bg-no-repeat bg-cover bg-center  h-full min-h-screen  "
         >
-          <div className="backdrop-blur h-full w-full  flex flex-col">
+          <div className="backdrop-blur h-full w-full  flex flex-col gap-4 min-h-screen">
             <ThemeProvider
               attribute="class"
               defaultTheme="dark"
@@ -55,7 +55,13 @@ export default function RootLayout({
             >
               <Web3ModalProvider>
                 <Nav />
-                {children}
+                <div
+                  className="
+                  flex self-center rounded-lg border-white p-1 border-solid border-2 bg-blue-900/70 h-full m-4"
+                >
+                  {children}
+                </div>
+
                 <div className="flex flex-grow"></div>
                 <div className="">
                   <Footer />

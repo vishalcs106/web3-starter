@@ -20,7 +20,7 @@ export default function Footer() {
     },
   ];
   return (
-    <div className="flex items-center gap-5 h-20 w-full py-2 justify-between px-10 bg-indigo-950/20">
+    <div className="flex items-center gap-5 py-3 w-full  justify-between px-10 bg-indigo-950/20">
       <div className="gap-5 flex">
         {socials.map((social, index) => {
           const Icon = social.Icon;

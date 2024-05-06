@@ -1,5 +1,6 @@
 "use client";
 import { useEffect } from "react";
+import CardStack from "@/components/CardStack";
 import { Button } from "@/components/ui/button";
 import {
   useAccount,
@@ -11,7 +12,8 @@ import { parseEther } from "viem";
 import { toast } from "sonner";
 import { useWeb3Modal } from "@web3modal/wagmi/react";
 import ConnectButton from "@/components/ConnectButton";
-
+import Image from "next/image";
+import HeroPlayers from "@/components/HeroPlayers";
 export default function Home() {
   const { isConnected } = useAccount();
   const { signMessage } = useSignMessage();
@@ -50,9 +52,9 @@ export default function Home() {
   }, [isConfirming, isConfirmed, error, hash]);
 
   return (
-    <main className="h-fit ">
-      <section className="flex flex-col text-center gap-8 w-full h-full justify-center items-center xl:items-start px-8 py-8 ">
-        <div className=" bg-indigo-950/90 rounded-lg w-full max-w-[500px]  p-8 gap-6 flex flex-col ">
+    <main className="h-full w-full self-center flex justify-center items-center">
+      <div className="flex flex-col lg:flex-row  text-center gap-8 w-full h-full justify-between items-center px-2 md:px-8 py-8 ">
+        <div className=" bg-indigo-950/90 rounded-lg w-full max-w-[500px] 2xl:max-w-[650px] justify-center items-center  p-8 gap-6 flex flex-col self-center">
           <p className="text-3xl 3xl:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-600">
             Fantasy Cricket On-Chain
           </p>
@@ -80,7 +82,11 @@ export default function Home() {
             </p>
           </div>
         </div>
-      </section>
+
+        <div className="self-center">
+          <HeroPlayers />
+        </div>
+      </div>
     </main>
   );
 }
