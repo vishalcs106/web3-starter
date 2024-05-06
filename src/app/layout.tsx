@@ -57,7 +57,7 @@ export default function RootLayout({
                 <Nav />
                 <div
                   className="
-                  flex self-center rounded-lg border-white p-1 border-solid border-2 bg-blue-900/70 h-full m-4"
+                  flex self-center rounded-lg border-white p-1 border-solid border-2 bg-blue-900/70 h-full  m-4 justify-center items-center mt-20"
                 >
                   {children}
                 </div>
