@@ -21,7 +21,7 @@ export default function Footer() {
   ];
   return (
     <div className="flex items-center gap-5 py-3 w-full  justify-between px-10 bg-indigo-950/20">
-      <div className="gap-5 flex">
+      <div className="gap-5 flex items-center">
         {socials.map((social, index) => {
           const Icon = social.Icon;
           const iconSizeClass = index === 0 ? "w-4 h-4" : "w-3 h-3";
@@ -39,6 +39,9 @@ export default function Footer() {
             </div>
           );
         })}
+        <Link href="https://cricfi.gitbook.io/cricfi/">
+          <p className="hover:underline text-lg font-semibold">Docs</p>
+        </Link>
       </div>
 
       <Image src={PoweredByAvalanche} alt="PoweredByAvalanche" height={50} />
