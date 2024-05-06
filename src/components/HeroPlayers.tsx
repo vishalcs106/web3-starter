@@ -12,7 +12,7 @@ function HeroPlayers() {
           className=" rounded-lg relative left-20 h-40 w-40 border-solid border-2 border-white"
         ></Image>
         <Image
-          src={"/vk.jpg"}
+          src={"/VK.jpg"}
           alt="player"
           width={150}
           height={150}
