@@ -72,7 +72,7 @@ export default function Home() {
               ⚔️ Play tournaments by creating a deck of 5 cards.
             </p>
             <p className="text-lg 2xl:text-2xl text-start">
-              🏆 90% of minted AVAX will be distriubuted as rewards.
+              🏆 90% of minted AVAX will be distributed as rewards.
             </p>
             <p className="text-lg 2xl:text-2xl text-start">
               🚀 Level up to earn more rewards.
